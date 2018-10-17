@@ -14,6 +14,8 @@ body{
     display: inline-block;
 }
 .About_me{
+    /*vert-align: top;*/
+    margin-left: 40px;
     display: inline-block;
     width: 670px;
 }
@@ -38,4 +40,9 @@ body{
     display: inline;
     height: 360px;
     width: 480px;
+}
+
+.Photo img{
+    height: auto;
+    width: 100%;
 }
