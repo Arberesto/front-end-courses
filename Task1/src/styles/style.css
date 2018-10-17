@@ -1,0 +1,41 @@
+body{
+}
+.Field{
+    margin: 200px 60px;
+    text-align: center;
+}
+.Left{
+    margin: 0px 0px 0px 0px;
+    /*padding: 0px 0px 20px 20px;*/
+    display: inline-block;
+}
+.Right{
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+}
+.About_me{
+    display: inline-block;
+    width: 670px;
+}
+.About_me_title{
+    text-align: left;
+    font-size: large;
+    color: black;
+    background-color:darkorange;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.About_me_text{
+    text-align: justify;
+    font-size: medium;
+    color: black;
+}
+.Filler{
+}
+.Photo{
+    display: inline;
+    height: 360px;
+    width: 480px;
+}
