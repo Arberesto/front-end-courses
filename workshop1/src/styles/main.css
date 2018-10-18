@@ -110,7 +110,7 @@ body {
 .experience__item {
     display: inline-block;
     margin-right: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: Arial;
     font-size: 17px;
 }
@@ -139,7 +139,7 @@ body {
 }
 .experience-info__job {
     color: black;
-    margin: 0 0 10px 0;
+    margin: 30px 0 10px 0;
     font-family: Arial;
     font-size: 22px;
 }
@@ -148,7 +148,7 @@ body {
     margin: 0;
 }
 .experience-info__company_link{
-    margin: 0 0 30px 0;
+    margin: 0 0 25px 0;
     font-family: Arial;
     font-size: 24px;
     color: #1a1a1a;
