@@ -2,3 +2,4 @@
 .idea/
 *.ipr
 *.xml
+.DS_Store
