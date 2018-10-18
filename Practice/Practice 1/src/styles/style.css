@@ -1,0 +1,22 @@
+.field {
+    display: flex;
+    width: 900px;
+    padding: 30px 40px;
+    /*border: 1px solid black;*/
+}
+
+.about_me {
+    margin-left: 40px;
+    width: 600px;
+}
+.photo {
+    width: 280px;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+}
+.about_me_title {
+    background-color: darkorange;
+    padding: 10px;
+}
