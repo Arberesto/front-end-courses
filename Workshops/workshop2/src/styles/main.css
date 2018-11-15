@@ -14,7 +14,7 @@ body{
     width: 200px;
     height: 60px;
     font-size: 48px;
-    background-color: darkgoldenrod;
+    background-color: #e8c734;
     margin-bottom: 20px;
     padding-left: 40px;
     font-weight: bold;
@@ -57,7 +57,7 @@ body{
     top: -1px;
     left: -1px;
     height: 30px;
-    background-color: #808183;
+    background-color: #bfc0c1;
 }
 
 .skills_list_element_1:after {
