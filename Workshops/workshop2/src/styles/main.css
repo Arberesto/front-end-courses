@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+.main {
+    margin: 30px 20px 0 20px;
+}
+
+.skills {
+
+}
+
+.skills_title {
+    width: 200px;
+    height: 60px;
+    font-size: 48px;
+    background-color: darkgoldenrod;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.skills_list {
+    display: inline-block;
+    margin: 0 auto;
+    width: 1000px;
+    list-style: none;
+}
+
+.skills_list_element :first-child  {
+    margin-top: 10px;
+}
+
+.skills_list_element :last-child {
+    margin-bottom: 40px;
+}
+
+.skills_list_element_text {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.skills_list_element_content {
+    display: inline-block;
+    height: 28px;
+    width: 400px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e8;
+}
+
+.skills_list_element_content:after {
+    display: inline-block;
+    content: '';
+    position: relative;
+    top: -1px;
+    left: -1px;
+    height: 30px;
+    background-color: #808183;
+}
+
+.skills_list_element_1:after {
+    width: 300px;
+}
+
+.skills_list_element_2:after {
+    width: 350px;
+}
+
+.skills_list_element_3:after {
+    width: 300px;
+}
+
+.skills_list_element_4:after {
+    width: 350px;
+}
+
+.skills_list_element_5:after {
+    width: 300px;
+}
+
+.skills_list_element_6:after {
+    width: 350px;
+}
+
+
+
