@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+<div class="main">
+    <p class="main__title">Давайте начнем</p>
+    <div class="main__input-form">
+        <form action="#" method="POST">
+            <div class="input-form__element">
+                <label class="input-form__element__label" for="first_name">Имя</label>
+                <input type="text" class="input-form__element__text-field" id="first_name"
+                       tabindex="1" placeholder="   Чендлер">
+            </div>
+            <div class="input-form__element">
+                <label class="input-form__element__label" for="last_name">Фамилия</label>
+                <input type="text" class="input-form__element__text-field" id="last_name"
+                       tabindex="2" placeholder="   Бинг">
+            </div>
+            <div class="input-form__element">
+                <label class="input-form__element__label" for="first_radiobutton">Ваш пол</label>
+                <label class="element__radiobutton">
+                    <input type="radio" class="element__radiobutton__radio radio1"  id="first_radiobutton"
+                           tabindex="3" checked="true" name="sex">Женский
+                </label>
+                <label class="element__radiobutton">
+                    <input type="radio" class="element__radiobutton__radio radio2" tabindex="4" name="sex">Мужской
+                </label>
+            </div>
+            <div class="input-form__element">
+                <label class="input-form__element__label" for="email">Введите электронный адрес</label>
+                <input type="email" class="input-form__element__text-field" id="email" tabindex="5"
+                       placeholder="    email@gmail.com">
+            </div>
+            <div class="input-form__element">
+                <label class="input-form__element__label" for="password">Придумайте пароль</label>
+                <input type="password" class="input-form__element__text-field element__text-field_password" id="password"
+                       tabindex="6" placeholder="   ******">
+            </div>
+            <div class="input-form__element">
+                <label class="element__checkbox">
+                    <input type="checkbox" class="element__checkbox__checkbox" tabindex="7">
+                    <span class="element__checkbox__text">Я принимаю условия <a href="#" class="element__link">Пользовательского соглашения</a> и даю своё согласие на обработку моих персональных данных на условиях, определенных <a href="#" class="element__link">Политикой конфиденциальности</a>
+                    </span>
+                </label>
+            </div>
+            <div class="input-form__element">
+                <button class="element__button" tabindex="8">Зарегистрироваться</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
