@@ -2,16 +2,19 @@
  
 // Подключение плагинов
 var gulp = require('gulp'),
-    clean = require('gulp-clean');
-    copy = require('gulp-contrib-copy');
+    clean = require('gulp-clean'),
+    copy = require('gulp-contrib-copy'),
     concat = require('gulp-concat');
  
 // Пути для сборки
 var path = {
-    build: {},
+    build: {
+    	html: 'build/',
+    	css: 'build/styles/'
+    },
     src: {
-    	copy_html: 'src/templates/index.html'
-    	css_files: 'src/styles/*.css'
+    	copy_html: 'src/templates/index.html',
+    	css: 'src/styles/*.css'
     },
     watch: {},
     clean: ['build','src/styles/main.css']
@@ -26,11 +29,17 @@ gulp.task('clean', function() {
 gulp.task('html:copy', function() {
     gulp.src(path.src.copy_html)
         .pipe(copy())
-        .pipe(gulp.dest(path.build));
+        .pipe(gulp.dest(path.build.html));
 });
 
 gulp.task('css:concat', function() {
-    return gulp.src(path.src.styles)
-        .pipe(concat('styles.css'))
-        .pipe(gulp.dest(path.build));
+    return gulp.src(path.src.css)
+        .pipe(concat('style.css'))
+        .pipe(gulp.dest(path.build.css));
 }); 
+
+gulp.task('default', [
+    'clean',
+    'html:copy',
+    'css:concat'
+]);
