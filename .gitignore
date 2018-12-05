@@ -2,5 +2,5 @@
 .idea/
 *.ipr
 *.xml
-./Practice/Practice*/build/
+Practice/Practice*/build/
 .DS_Store
