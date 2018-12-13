@@ -1,0 +1,76 @@
+.sidebar{
+    box-sizing: border-box;
+    width: 400px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 0 75px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.main_bottom_sidebar_photo{
+    width: 400px;
+    height: max-content;
+}
+
+.main_bottom_sidebar_photo_photo{
+    width: inherit;
+}
+
+.main_bottom_sidebar_photo_photo img{
+    width: 100%;
+    height: auto;
+}
+
+.main_bottom_sidebar_photo_filler{
+    width: 20px;
+    background-color : #9c9da0;
+}
+
+.main_bottom_sidebar_photo_filler img{
+    width: 100%;
+    height: available;
+}
+
+.main_bottom_sidebar_about-me{
+    line-height: 1.5;
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    padding-right: 20px;
+}
+
+.main_bottom_sidebar_text{
+    margin-top: -5px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.main_bottom_sidebar_postlist{
+    color:#626262;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.main_bottom_sidebar_postlist_sign{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 6px;
+}
+
+.postlist_item{
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.postlist_item_container_comments{
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #c7c1b6;
+    font-size: 18px;
+}

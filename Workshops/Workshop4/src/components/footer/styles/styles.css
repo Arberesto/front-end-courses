@@ -1,0 +1,25 @@
+.footer{
+    background-color: #f0f0f0;
+    height: 130px;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.footer_links_list{
+    padding-top: 70px;
+    padding-left: 120px;
+}
+
+.footer_categories__item{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 28px;
+}
+
+.footer_categories__link{
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: left;
+}

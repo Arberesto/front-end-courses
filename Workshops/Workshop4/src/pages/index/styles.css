@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+
+
+.main_header{
+    padding-top: 80px;
+    width: 1600px;
+
+}
+
+.header_links_list{
+    padding-bottom: 30px;
+}
+
+.categories__item{
+    display: inline-block;
+    margin-left: 200px;
+    color:#626262;
+}
+
+.categories__link{
+    color: #626262;
+    font-size: 24px;
+    font-family: Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.minimo_title{
+    color: black;
+    width: 140px;
+    font-size: 32px;
+    font-weight: lighter;
+    font-family: Inconsolata;
+    margin-left: -230px;
+    margin-right: 120px;
+}
+
+.minimo_title img{
+    width: 130%;
+    height:auto;
+}
+
+.content{
+    display: inline-block;
+    padding-bottom: 390px;
+}
+
+.content__big-image-container{
+    height: 820px;
+    display: inline-block;
+    width: 1600px;
+}
+
+.content__big-image-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.main_bottom_secondpart{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.content,.sidebar{
+    vertical-align: top;
+}
+
+.content{
+    display: inline-block;
+    width: 1000px;
+    font-size: 22px;
+    padding-left: 80px;
+}
+
+.content__text, .content__text{
+    line-height: 1.5;
+}
+
+.content__section{
+    font-size:20px;
+    text-transform: uppercase;
+    color: #b8b2a4;
+    margin-bottom: -10px;
+}
+
+.content__photo-container{
+    width: inherit;
+    display: inline-block;
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.content__photo-container img{
+    width: 100%;
+    height: auto;
+
+}
+
+.content__title{
+    font-size: 44px;
+}
+
+
+
+.sidebar{
+    box-sizing: border-box;
+    width: 400px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 0 0 75px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.main_bottom_sidebar_photo{
+    width: 400px;
+    height: max-content;
+}
+
+.main_bottom_sidebar_photo_photo{
+    width: inherit;
+}
+
+.main_bottom_sidebar_photo_photo img{
+    width: 100%;
+    height: auto;
+}
+
+.main_bottom_sidebar_photo_filler{
+    width: 20px;
+    background-color : #9c9da0;
+}
+
+.main_bottom_sidebar_photo_filler img{
+    width: 100%;
+    height: available;
+}
+
+.main_bottom_sidebar_about-me{
+    line-height: 1.5;
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    padding-right: 20px;
+}
+
+.main_bottom_sidebar_text{
+    margin-top: -5px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.main_bottom_sidebar_postlist{
+    color:#626262;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+
+.main_bottom_sidebar_postlist_sign{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 6px;
+}
+
+.postlist_item{
+    margin-bottom: 35px;
+    font-size: 24px;
+}
+
+.postlist_item_container_comments{
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #c7c1b6;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #f0f0f0;
+    height: 130px;
+    margin: 0px auto;
+    padding: 0 auto;
+}
+
+.footer_links_list{
+    padding-top: 70px;
+    padding-left: 120px;
+}
+
+.footer_categories__item{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 28px;
+}
+
+.footer_categories__link{
+    color: black;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: left;
+}
